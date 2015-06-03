@@ -1,0 +1,39 @@
+<form id="sign-up-form">
+    <fieldset>
+        <input class="input-field" type="text" class="name" name="name" placeholder="Enter name"/>
+        <span class="required">*</span>
+        <div></div>
+        <span class="hide not-required name">You must enter the name!!!</span>
+        <span class="hide name-exist name">This name is already exist!</span>
+        <input class="input-field" type="password" class="password" name="password" placeholder="Enter password"/>
+        <span class="required">*</span>
+        <div></div>
+        <span class="hide not-required password">You must enter the password!!!</span>
+        <input class="input-field" type="email" class="email" name="email" placeholder="Enter e-mail"/>
+        <span class="required">*</span>
+        <div></div>
+        <span class="hide not-required email">You must enter correct email!!!</span>
+        <span class="hide email-exist name">This email is already exist!</span>
+        <div></div>
+        <input type="submit" class="save" value="Save"/>
+    </fieldset>
+</form>
+<form action="#" id="login-form">
+    <fieldset>
+        <input class="input-field" type="text" class="name" name="name" placeholder="Enter name"/>
+        <div></div>
+        <span class="hide not-required email">You must enter name!!!</span>
+        <span class="hide wrong-name name">User with this name is not exist!</span>
+        <div></div>
+        <input class="input-field" type="password" class="password" name="password" placeholder="Enter password"/>
+        <div></div>
+        <span class="hide not-required password">You must enter the password!!!</span>
+        <span class="hide wrong-password password">You entered wrong password!!!</span>
+        <div></div>
+        <input type="submit" class="login" value="Login"/>
+    </fieldset>
+</form>
+<div id="authorization">
+    <button class="login">Log In</button>
+    <button class="sign-up">Sign Up</button>
+</div>

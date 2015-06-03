@@ -1,0 +1,9 @@
+<div id="back-main-page" class="back"><i class="fa fa-reply"></i></div>
+<ul id="all-cards" data-template="true">
+    {{# _(model).each(function (card) { }}
+    <li class="card" data-id="{{ card.fullCardNumber }}">
+        <span class="card-name">{{ card.name }}</span>
+        <img src="source/images/{{ card.storeName }}.jpg" alt="{{ card.name }}" class="card {{ card.storeName }}" id="{{ card.fullCardNumber }}"/>
+    </li>
+    {{# }); }}
+</ul>

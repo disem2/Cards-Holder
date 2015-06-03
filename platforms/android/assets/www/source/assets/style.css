@@ -1,0 +1,196 @@
+fieldset {
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+#task-field {
+    padding: 5px;
+    font-size: 18px;
+    width: 73%;
+    float: left;
+}
+.sync {
+    font-size: 24px;
+    margin-right: 4px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 4px;
+    float: left;
+    border: none;
+    background: none;
+    color: #083aff;
+}
+#todo-form .save {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 3px 0px 2px;
+    float: right;
+    background: none;
+    border: none;
+    color: #083aff;
+    margin-top: 0;
+}
+#tasks {
+    padding: 0;
+    margin-left: 0;
+    /* border-top: 2px solid #000000; */
+    margin-top: 20px;
+}
+.task {
+    overflow: hidden;
+    list-style: none;
+    padding: 2px 0;
+    vertical-align: middle;
+    font-size: 0;
+}
+.task .left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+}
+.task .right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+}
+.task .middle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 79%;
+}
+
+
+.task:last-child {
+    border: none;
+}
+.task-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 72%;
+    font-size: 16px;
+}
+.remove-task {
+    width: 26px;
+    height: 30px;
+    border: none;
+    background: none;
+    font-size: 26px;
+    color: #a70035;
+    display: inline-block;
+}
+.toggle-done {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+li.done span {
+    text-decoration: line-through;
+    color: #888888;
+}
+#authorization {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#sign-up-form, #login-form {
+    display: none;
+}
+.input-field {
+    margin-top: 10px;
+    padding: 3px 5px;
+    font-size: 16px;
+}
+.save, #login-form .login {
+    margin-top: 10px;
+    font-size: 18px;
+}
+#sign-up-form .required {
+    color: #ff0000;
+}
+.hide {
+    color: #ff0000;
+    display: none;
+}
+#add-card .card-name, #add-card .card-number {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.big-btn {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 30px;
+}
+#add-card {
+    padding: 0;
+}
+#add-card form {    
+    text-align: center;
+}
+#add-card #store {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+#add-card fieldset {
+    border: none;
+}
+#back-type-card {
+    float: left;
+}
+#fav-cards, #all-cards {
+    padding: 0;
+    list-style: none;
+}
+#fav-cards li, #all-cards li {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+}
+#fav-cards span, #all-cards span {
+    display: block;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-size: 14px;
+    bottom: 7px;
+    right: 4px;
+}
+#fav-cards img, #all-cards img {
+    width: 100%;
+}
+.header {
+    overflow: hidden;
+}
+.account {
+    float: right;
+}
+.back {
+    font-size: 24px;
+    margin-right: 4px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 4px;
+    border: none;
+    background: none;
+    color: #083aff;
+}
+#barcode {
+    width: 90%;
+    display: inline-block;
+}
+#screen .bc-holder {
+    margin-top: 10px;
+    text-align: center;
+}

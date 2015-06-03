@@ -1,0 +1,12 @@
+<div class="header">
+    <button class="sync"><i class="fa fa-refresh"></i></button>
+    <div class="account">
+        <span class="username">{{ Parse.User.current().get('username') }}</span>
+        <button class="logout">Log Out</button>
+    </div>
+</div>
+<div id="favorites"></div>
+<div>
+    <button id="show-all" class="big-btn">All Cards</button>
+    <button id="new-card" class="big-btn">New Card</button>
+</div>
